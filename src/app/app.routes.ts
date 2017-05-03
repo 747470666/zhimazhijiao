@@ -11,6 +11,10 @@ export const ROUTES: Routes = [{
 }, {
   path: 'register', loadChildren: './register/register.module#registerModule'
 }, {
+  path: 'authentication', loadChildren: './authentication/authentication.module#authenticationModule'
+}, {
+  path: 'completion', loadChildren: './completion/completion.module#completionModule'
+}, {
   path: 'error', component: ErrorComponent
 }, {
   path: '**',    component: ErrorComponent

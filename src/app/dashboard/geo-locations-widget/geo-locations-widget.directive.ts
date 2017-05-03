@@ -20,7 +20,7 @@ export class GeoLocationsWidget {
         name : 'usa_states',
         defaultArea : {
           attrsHover : {
-            fill : '#242424',
+            fill : '#DC143C',
             animDuration : 100
           },
           tooltip: {

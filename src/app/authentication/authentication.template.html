@@ -1,0 +1,64 @@
+<div class="container">
+  <main id="content" class="widget-authentication-container" role="main">
+    <div class="row">
+      <div class="col-xl-4 col-md-6 col-10 offset-xl-4 offset-md-3 offset-1">
+        <h5 class="widget-authentication-logo animated fadeInUp">
+          <i class="fa fa-circle text-gray"></i>
+
+          <i class="fa fa-circle text-warning"></i>
+        </h5>
+        <section class="widget widget-authentication animated fadeInUp">
+          <header>
+            <h3>登陆芝麻支教</h3>
+          </header>
+          <div class="widget-body">
+            <p class="widget-authentication-info">
+              注册芝麻支教帐号
+            </p>
+            <form class="authentication-form mt-lg">
+              <div class="form-group">
+                <input type="text" class="name-control" id="name" placeholder="姓名">
+                <input type="radio" name="sex" value="male" checked>男
+                <input type="radio" name="sex" value="female">女
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="identity" placeholder="身份证号">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="school" placeholder="学校">
+              </div>
+              <div class="form-group">
+                <input type="file" class="form-control" id="file" name="file" accept=".pdf">
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-inverse btn-sm" id="submit" name="submit">
+              </div>
+              <div class="clearfix">
+                <div class="btn-toolbar float-right m-t-1">
+                  <a class="btn btn-inverse btn-sm" [routerLink]="['/app', 'dashboard']">认证</a>
+                </div>
+              </div>
+              <div class="row m-t-1">
+                <div class="col-md-6 push-md-6">
+                  <div class="clearfix">
+                    <div class="abc-checkbox widget-authentication-info float-right">
+                      <input type="checkbox" id="checkbox1" value="1">
+                      <label for="checkbox1">保持登入</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 pull-md-6">
+                  <a class="mr-n-lg" href="#">登陆遇到问题？</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer">
+    2017 &copy; 芝麻支教.
+  </footer>
+</div>

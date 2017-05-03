@@ -1,0 +1,87 @@
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../scss/variables";
+
+/***********************************/
+/**             authentication             **/
+/***********************************/
+
+authentication-page{
+  background-color: $gray-semi-lighter;
+}
+
+.authentication-page .page-footer {
+  margin-bottom: 25px;
+  font-size: $font-size-mini;
+  color: $text-muted;
+  text-align: center;
+  @media (min-height: 600px) {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.widget-authentication-container{
+  padding-top: 10%;
+}
+
+.widget-authentication-logo{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: $font-weight-normal;
+  .fa-circle{
+    font-size: 13px;
+    margin: 0 20px;
+  }
+}
+
+.widget-authentication{
+  padding: 30px;
+
+  > header{
+    h1,h2,h3,h4,h5,h6{
+      font-weight: $font-weight-normal;
+      text-align: center;
+    }
+  }
+}
+
+.widget-authentication-info{
+  font-size: $font-size-mini;
+  color: #888;
+  margin-top: 1px;
+  margin-bottom: 0;
+  text-align: center;
+
+  &.abc-checkbox {
+    margin-left: -25px;
+  }
+}
+
+.authentication-form{
+   .form-control{
+     font-size: $font-size-mini;
+     border: none;
+     background-color: $gray-lighter;
+     &:focus{
+       background-color: $gray-semi-lighter;
+     }
+   }
+
+ }
+
+.authentication-form{
+  .name-control{
+    width: 220px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    background-color: $gray-lighter;
+    &:focus{
+      background-color: $gray-semi-lighter;
+    }
+  }
+
+}

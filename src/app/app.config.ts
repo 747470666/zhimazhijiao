@@ -7,7 +7,7 @@ export class AppConfig {
   config = {
     name: '芝麻支教',
     title: '芝麻支教---芝麻，支吗？',
-    version: '3.2.0',
+    version: '1.0.0',
     /**
      * Whether to print and alert some log information
      */
